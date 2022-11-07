@@ -1,0 +1,116 @@
+
+body{
+    background-color: black;
+}
+extra{
+    background-image: url('back1.gif');
+    background-size: 200px;
+    background-repeat: repeat;
+    position: absolute;
+    top: 5%;
+    margin-left: 9%;
+    width: 80%;
+    border: 1px solid;
+    border-color: white;
+}
+imgdiv{
+    z-index: 10;
+}
+
+h1{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-family: "Georgia", serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 40px;
+    border: 30px solid transparent;
+    padding: 0px;
+    border-image: url(border.png);
+    border-image-slice: 10%;
+    border-image-repeat: repeat;
+    background-color: black;
+}
+oldh1{
+    text-align: center;
+}
+p1{
+    margin-top: 4%;
+    font-family: "Georgia", serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 15px;
+    line-height: 1.8em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8%;
+    display: block;
+    border: 30px solid transparent;
+    padding: 0px;
+    border-image: url(border.png);
+    border-image-slice: 10%;
+    border-image-repeat: repeat;
+    background-color: black;
+}
+p1tit{
+    margin-top: 3%;
+    font-family: "Georgia", serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 15px;
+    line-height: 1.8em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8%;
+    display: block;
+    border: 30px solid transparent;
+    padding: 0px;
+    border-image: url(border.png);
+    border-image-slice: 10%;
+    border-image-repeat: repeat;
+    background-color: black;
+}
+next{
+    float: right;
+    display: block;
+    font-family: "Georgia", serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin: 4px;
+    border: 1px solid;
+    border-color: white;
+    padding: 4px;
+}
+previous{
+    float: left;
+    display: block;
+    font-family: "Georgia", serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin: 4px;
+    border: 1px solid;
+    border-color: white;
+    padding: 4px;
+}
+homebox{
+    font-family: "Georgia", serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: white;
+    padding: 4px;
+}
+home{
+    float: none;
+    text-align: center;
+    display: block;
+    background-color: black;
+    font-family: "Georgia", serif;
+    font-weight: lighter;
+    color: whitesmoke;
+    border-bottom: 1px solid;
+    border-color: white;
+    padding: 9px;
+}
